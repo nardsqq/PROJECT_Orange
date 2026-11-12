@@ -3,7 +3,7 @@
 
   const STORAGE_KEY = 'project-orange-terminal-v3';
   const LEGACY_KEY = 'project-orange-terminal-v2';
-  const TOTAL_TIME_MS = 20 * 60 * 1000;
+  const TOTAL_TIME_MS = 30 * 60 * 1000;
   const WRONG_CODE_PENALTY_MS = 60 * 1000;
   const STAGES = Object.freeze({
     room1: { label: 'ROOM 01', title: 'THE COMMAND CENTER', description: 'Reconstruct the original command. Enter the recovered five-digit code.', code: '62841', next: 'room2' },
